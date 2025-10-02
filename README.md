@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/captpanther/partnerplusoverlaytool">
-    <blockquote class="imgur-embed-pub" lang="en" data-id="a/7WfriZI" data-context="false" ><a href="//imgur.com/a/7WfriZI"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+    <img src="https://imgur.com/JJ5Qpv0.png" alt="Logo" width="80" height="80">
   </a>
   <h3 align="center">Twitch Partner Plus Goal Scraper and Overlay Generator</h3>
   <div align="center">
