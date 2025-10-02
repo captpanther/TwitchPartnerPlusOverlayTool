@@ -14,6 +14,8 @@
 # What is this?
 This is a simple python-based desktop app, that allow the user to retrieve and display the current information listed for a given channels partner plus widget. This tool also creates an automatically updated browser source html file for use in in OBS or other similar programs.
 
+***NOTE: In order for this tool to function properly, the channel you wish to retrieve the Partner Plus information from must have the Plus Goal widget in the channel's about page!***
+
 ## What Can Does it do?
 - Grab the Partner Plus Goal information from the Twitch User's About Page
 - Generates hmtl file for use as local browser source to show the goal on stream
