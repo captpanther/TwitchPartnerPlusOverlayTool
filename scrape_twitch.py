@@ -146,7 +146,7 @@ class TwitchScraperApp(ctk.CTk):
             self.after(0, self.update_results_text, f"Navigating to {url}...")
             await self.page.goto(url, wait_until="domcontentloaded")
             
-            await self.page.wait_for_selector('.about-section__actions', timeout=15000)
+            #await self.page.wait_for_selector('.about-section__actions', timeout=15000)
 
             self.current_url = url
             return await get_twitch_plus_goal(self.page)
@@ -156,7 +156,7 @@ class TwitchScraperApp(ctk.CTk):
             return None
 
     async def _async_scrape_page(self):
-        target_url = f'https://www.twitch.tv/{self.channel_entry.get()}/about'
+        target_url = f'https://www.twitch.tv/{self.channel_entry.get().strip()}/about'
         
         if not self.page or self.current_url != target_url:
             return await self._async_setup_browser_and_navigate(target_url)
